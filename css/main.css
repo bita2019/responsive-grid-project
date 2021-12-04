@@ -1,3 +1,14 @@
 /* Add your CSS here */
-
+:root {
+  --first-color: #16f;
+  --second-color: #ff7;
+}
+.topnav {
+  display: grid;
+  grid-template-columns: repeat(12, 2rem);
+}
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
 /* Dont' forget to link this file to your HTML in the <head> */
