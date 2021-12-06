@@ -12,25 +12,40 @@
   <body>
     <header>
       <div class="topnav">
+        <nav class="topnav" id="myTopnav"></nav>
         <input type="text" placeholder="Search.." />
       </div>
-      <logincard class="topright">
-        <img
-          src="./css/126786791-user-login-or-authenticate-icon-human-person-symbol-vector.webp"
-        />
-        <h3></h3>
-        <img
-          src="./css/handbag-bag-purse-shopping-online-cart-case-30430.png"
-        />
+      <logincard class="logincard">
+        <div class="loginsize">
+          <img
+            src="./css/126786791-user-login-or-authenticate-icon-human-person-symbol-vector.webp"
+          />
+        </div>
+        <h3>login</h3>
+        <div class="cardsize">
+          <img
+            src="./css/handbag-bag-purse-shopping-online-cart-case-30430.png"
+          />
+        </div>
       </logincard>
       <topmenu class="topmenu">
-        <nav></nav>
+        
+          <a href="#home" class="active">Home</a>
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        
       </topmenu>
       <callus class="callus"></callus>
+    </nav>
     </header>
     <main>
       <herophoto> </herophoto>
       <herotext> </herotext>
+      <herobutton></herobutton>
       <shoppinggallery> </shoppinggallery>
     </main>
     <footer>
@@ -41,6 +56,7 @@
       <help></help>
       <subscribe></subscribe>
       <socialicons></socialicons>
+      <map></map>
     </footer>
     <!-- Add your markup here -->
 
